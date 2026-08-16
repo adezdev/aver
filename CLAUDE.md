@@ -53,6 +53,17 @@ should know it's a CLI.
 Grammar or new-field changes go in `docs/aver/README.md`'s format section
 AND `docs/aver/CHANGELOG.md`, same commit. Don't leave the spec behind.
 
+## Branching
+
+Never commit new work straight to `master`. Branch first, `master` stays
+whatever's actually shipped. Name the branch for what it does, not who's
+doing it or when: `<type>/<short-description>` using the same type prefixes
+as commits (`feat/`, `fix/`, `docs/`, `refactor/`, `chore/`, etc.), lowercase,
+hyphens, no ticket numbers since nothing here is tracked in an issue tracker
+yet. E.g. `feat/robotics-autonomy-tiers`, `docs/split-spec-into-pages`,
+`fix/capability-hash-ordering`. Open a PR into `master` when it's ready
+rather than merging locally.
+
 ## Commits
 
 Follow `.claude/rules/conventional-commits.md` for every commit message,
