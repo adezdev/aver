@@ -33,11 +33,11 @@ export function parse(version: string): AverParts {
   }
   const [, vendor, mind, capability, autonomy, policy] = match;
   return {
-    vendor,
-    mind,
-    capability,
+    vendor: vendor!,
+    mind: mind!,
+    capability: capability!,
     autonomy: Number(autonomy) as Autonomy,
-    policy,
+    policy: policy!,
   };
 }
 
