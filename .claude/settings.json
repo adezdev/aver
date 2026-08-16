@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "VERSION=$(bun run src/cli.ts generate --vendor anthropic --mind sonnet-5 --manifest examples/claude-code-manifest.json --autonomy 2 --policy-source examples/claude-code-policy.txt --out examples/version.json) && printf '{\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\"AVER version: %s\"}}' \"$VERSION\"",
+            "timeout": 30,
+            "statusMessage": "Generating AVER version..."
+          }
+        ]
+      }
+    ]
+  }
+}

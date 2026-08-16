@@ -1,0 +1,4 @@
+edit-mode: default permission prompts on
+destructive-git: blocked without explicit user confirmation
+force-push: blocked
+skip-hooks: blocked

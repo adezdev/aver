@@ -1,0 +1,15 @@
+[
+  "Agent",
+  "Artifact",
+  "AskUserQuestion",
+  "Bash",
+  "Edit",
+  "Glob",
+  "Grep",
+  "PowerShell",
+  "Read",
+  "ReportFindings",
+  "ScheduleWakeup",
+  "Skill",
+  "Write"
+]

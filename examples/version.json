@@ -1,0 +1,18 @@
+{
+  "version": "vanthropic:sonnet-5.5010e927.2-3ea70c",
+  "capability_manifest": [
+    "Agent",
+    "Artifact",
+    "AskUserQuestion",
+    "Bash",
+    "Edit",
+    "Glob",
+    "Grep",
+    "PowerShell",
+    "Read",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "Skill",
+    "Write"
+  ]
+}
